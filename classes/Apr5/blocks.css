@@ -1,0 +1,76 @@
+#container {
+	/*display: block;*/
+	
+}
+
+.block{
+	height: 10rem;
+	width: 10rem;
+	background-color: maroon;
+	margin: 2rem;
+	color: white;
+	text-align: center;
+	font-size: 8em;
+	display: inline-block;
+}
+
+.row{
+	/*display: inline-block;*/
+	
+}
+
+.r1{
+    animation: faded 1s;
+	animation-fill-mode: forwards;
+}
+.r2{
+    animation: faded 2s;
+	animation-fill-mode: forwards;
+}
+.r3{
+    animation: faded 3s;
+	animation-fill-mode: forwards;
+}
+.r4{
+    animation: faded 4s;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes faded{
+	0%{
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+
+}
+
+
+@media(max-width: 700px){
+	.block{
+		height: 7rem;
+		width: 7rem;
+		margin: 1rem;
+	    color: black;
+		background-color: coral;
+		font-size: 7.5rem;
+	}
+}
+
+@media(max-width:500px){
+	.block{
+		height: 3rem;
+		width: 3rem;
+		margin: .3rem;
+	    color: white;
+		background-color: green;
+		font-size:3.2rem;
+	}
+}
+
+
+
+

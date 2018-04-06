@@ -1,0 +1,36 @@
+#container {
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	/*flex-wrap: wrap-reverse;*/
+	background-color: crimson;
+	justify-content:center;
+	align-items: stretch;
+}
+
+#box1, #box2, #box3, #box4{
+	background-color: skyblue;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+}
+
+#box1m{
+	order: 4;
+}
+
+#box2 {
+	order: 2;
+}
+
+
+#box3 {
+	order: 1;
+	flex-basis: 200px;
+}
+
+#box4 {
+	order: 3;
+}

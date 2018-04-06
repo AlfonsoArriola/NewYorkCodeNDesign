@@ -1,0 +1,65 @@
+
+
+#box1 {
+	width: 300px;
+	height: 300px;
+	background: radial-gradient(yellow, coral);
+	position:fixed;
+	left: 200px;
+	top: 100px;
+	box-shadow:  2px 7px 4px 3px powderblue;
+	transform: rotateX(22deg);
+
+}
+
+#box2 {
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	
+}
+
+
+#box3 {
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	
+}
+
+#box4 {
+	width: 300px;
+	height: 300px;
+	background-color: coral;
+
+	
+}
+
+
+
+.first{
+	width: 250px;
+	display: inline-block;
+	color: red;
+	border: 2px solid brown;
+}
+.second {
+	width: 250px;
+	display: inline-block;
+	color: blue;
+	border: 2px solid yellow;
+}
+
+.third {
+	width: 250px;
+	display: inline-block;
+	color: green;
+	border: 2px solid black;
+}
+
+.fourth {
+	width: 250px;
+	display: inline-block;
+	color: orange;
+	border: 2px solid blue;
+}

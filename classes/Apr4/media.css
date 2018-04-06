@@ -1,0 +1,45 @@
+.box{
+	width: 200px;
+	height: 200px;
+	background-color: coral;
+	display: inline-block;
+	margin: 10px;
+}
+
+#box1{
+
+}
+
+#box2{
+	
+}
+
+#box3{
+	
+}
+
+@media (max-width: 760px){
+	.box{
+		background-color: powderblue;
+		width: 150px;
+		height: 150px;
+		display: block;
+	}
+
+  
+/*#box1{
+   display: block;
+}
+
+#box2{
+	display: block;
+}
+
+#box3{
+	
+display: block;
+}
+*/
+
+
+}

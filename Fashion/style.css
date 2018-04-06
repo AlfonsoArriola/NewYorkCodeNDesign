@@ -1,0 +1,99 @@
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	padding: 3rem;
+}
+
+.headliner{
+
+}
+#title{
+	color: #ff6666;
+	/*font-weight: 100;*/
+	font-size: 1.7em;
+	margin: .1rem;
+}
+#subtitle{
+	font-size: 1.4em;
+	margin: 0rem;
+	color: 00091a;
+}
+
+
+ul{
+	padding-left: 0;
+}
+
+
+li {
+	display: inline-block;
+	padding: .3rem;
+	font-size: 1.2em;
+}
+
+a {
+	color: coral;
+	float: right;
+	font-weight: bold;
+	font-size: .95em;
+}
+
+.date{
+	font-weight: lighter;
+	color: #e6e6e6;
+
+}
+
+.atitle{
+	font-size: 1.7em;
+	color: #262626;
+}
+
+
+/**********       AD    *********************/
+
+.ad{
+	top: 15rem;
+	height: 8rem;
+	width: 8rem;
+	background-color: powderblue;
+	color: powderblue;
+	position: fixed;
+	animation: popup 7s alternate infinite;
+	text-align: center;
+	padding: 5rem;
+	font-size: 2em;
+	filter: blur(5px);
+
+}
+
+@keyframes popup {
+	0%{
+		left: -30rem;
+	}
+
+	100%{
+		left: 37rem;
+		background-color: coral;
+		border-radius: 50%;
+		color: white;
+		filter: blur(0);
+	}
+}
+
+
+
+
+/*  ++++++++++     Footer  ****************/
+#fl{
+	color: coral;
+	font-size: .7em;
+}
+
+#cr{
+	font-weight: 100;
+	
+}
+
+
