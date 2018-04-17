@@ -1,0 +1,22 @@
+body{
+	background-color: powderblue;
+}
+
+.container{
+	width: 300px;
+	height: 300px;
+	background: red;
+	margin: 10px;
+}
+
+
+.hidden{
+	display: none;
+}
+/*#stuff{
+   font-size: 2rem;
+}*/
+
+#bigUp{
+    color: green;
+};

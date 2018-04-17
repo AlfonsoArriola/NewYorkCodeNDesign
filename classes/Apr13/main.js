@@ -1,19 +1,25 @@
 let gameOver = false;
 let computerChoices = ["rock", "paper", "scissors"];
+       console.log("grape");
+
+
+        function checkInput(input, computerChoices) {
+  if (input == "quit") {
+       return true;
+                      }
 
 function randomFrom(array) {
-        return [(Math.ceil(Math.random()*3)) ];
+        return array[(Math.ceil(Math.random()*3)) ];
+         console.log("yups");
 
                            }
 
 //   ***********************************
-function checkInput(input, computerChoices) {
-  if (input == "quit") {
-       return true;
-                      }
+
 //  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   
   let computerChoice = randomFrom(computerChoices);
+    console.log("tooh");
   
   if(computerChoice === "rock" && input === "scissors"){
 	   alert("Computer wins1!");
@@ -27,6 +33,7 @@ function checkInput(input, computerChoices) {
 	}
 
 	   alert("Don't Stop");
+     console.log('ppp');
 	         return false;
 }
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -35,8 +42,11 @@ function start(gameOver, computerChoices) {
   while (!gameOver){
     let playerInput = '';
        prompt("Hi! Enter rock/paper/scissors to play, or quit to stop playing.");
+       console.log("kirk");
          gameOver = checkInput(playerInput, computerChoices);
+         console.log("spock");
             playerInput = "paper";
+             console.log("picard");
 
 } 
 
