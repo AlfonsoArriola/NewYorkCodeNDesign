@@ -1,0 +1,27 @@
+body{
+	background-color: #0091A0;
+}
+
+button{
+	height: 5rem;
+	width: 5rem;
+	border-radius: 50%;
+	display: block;
+}
+
+iframe{
+	height: 20rem;
+	width: 20rem;
+	object-fit: cover;
+}
+
+
+#gifScreen{
+	height: 20rem;
+	width: 20rem;
+	display: block;
+	margin: auto;
+	background-color: coral;
+	border: 1rem solid #002760;
+}
+
