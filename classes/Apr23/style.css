@@ -1,0 +1,25 @@
+body {
+	background: coral;
+}
+
+
+
+button{
+   display: inline-block;
+   height: 10rem;
+   width: 10rem;
+   font-size: 8em;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.incrementor{
+
+	height: 10rem;
+	width: 10rem;
+	display: inline-block;
+	border: 3px solid black;
+	text-align: 0 auto;
+	font-size: 9em;
+
+}
