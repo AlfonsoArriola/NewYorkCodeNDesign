@@ -18,7 +18,7 @@ let usedGifs = [];
   
      usedGifs.push(justOneRandomGif);
      
-        for ( let = 0; i < )
+        // for ( let = 0; i < )
 
  	myGifDisplay.innerHTML = `<iframe src="${ justOneRandomGif}" id='actualGif'></iframe>`
 
