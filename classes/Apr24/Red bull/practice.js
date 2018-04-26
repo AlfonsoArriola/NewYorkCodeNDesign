@@ -19,7 +19,7 @@ let myPromise = axios.get('https://www.redbullshopus.com/products.json').then(fu
     // showCasing.innerHTML = `<img src="${redBullHat}">`;
 
 
-     for( let i = 0; i < allOfTheProducts.length; i++){
+     // for( let i = 0; i < allOfTheProducts.length; i++){
  
        // let OneProductImage = allOfTheProducts[i].images[0].src;
        // let NuNode = document.createElement('div');

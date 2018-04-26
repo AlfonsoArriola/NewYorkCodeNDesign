@@ -3,9 +3,7 @@
 let addUpButton = document.querySelector('.plusButton');
 let subtractDownButton = document.querySelector('.minusButton');
 let numberDisplay = document.querySelector('.incrementor');
-
-
-     
+   
     
   addUpButton.addEventListener('click', function(){
   	  console.log('check 1');
@@ -20,8 +18,6 @@ subtractDownButton.addEventListener('click', function(){
 });
 
 
-
-
 class Numbers{
 	constructor(myNumber){
        this.number = myNumber;
@@ -31,9 +27,11 @@ class Numbers{
         myNumber ++;
 	}
 
-
 	oneLessNumber(){
 		myNumber --;
 
 	}
 }
+
+
+
