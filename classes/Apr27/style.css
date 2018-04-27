@@ -1,0 +1,78 @@
+body{
+  height: 100vh;
+	background: #383838;
+	/*font-family: 'Open Sans', sans-serif;*/
+   font-family: 'Roboto', sans-serif;
+   margin: 0 auto;
+}
+
+
+.container-fluid{
+	background: #383838;
+}
+
+
+.title{
+	height: 6rem;
+	background: red;	
+}
+
+.title h1{
+	margin: auto;
+	color: white;
+	font-size: 1.4em;
+}
+
+.test{
+    background: #383838;
+	height: 20rem;
+}
+
+.splitBox{
+	height: 20rem;
+	width: 100%;
+}
+
+.top{
+	height: 10rem;
+	width: 100%;
+	display:block;	
+}  
+
+.bottom{
+   height: 10rem;
+   width: 100%;
+   background: white;
+   overflow: hidden;
+   font-size: .7em;
+   border-bottom-right-radius: 15%;
+   border-bottom-left-radius: 15%;
+
+}
+
+.bottom h2{
+	font-size: 1.5em;
+	/*padding: .5rem .5rem;*/
+	font-weight: bold;
+}
+
+.odds{
+	background-image: url(images/PinkSnow.jpg);
+	background-repeat: no-repeat;
+	background-image: contain;
+	border-top-left-radius: 3%;
+	border-top-right-radius: 3%;
+}
+
+.evens{
+	background-image: url(images/watermelon1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: contain;
+	border-top-left-radius: 3%;
+	border-top-right-radius: 3%;
+}
+
+
+
+
