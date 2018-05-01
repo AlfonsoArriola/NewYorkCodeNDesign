@@ -1,0 +1,35 @@
+body{
+ margin: 0 auto;
+}
+
+header{
+	background-color: steelblue;
+	height: 10rem;
+}
+
+
+.main_content{
+	background-color: coral;
+	height: 10rem;
+
+}
+
+footer{
+	background-color: black;
+	height: 10rem;
+}
+
+
+
+ fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    .overflow {
+      height: 200px;
+    }
+
+
