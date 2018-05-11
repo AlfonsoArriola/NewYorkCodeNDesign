@@ -12,7 +12,6 @@ counter = [1]
    number = gets.chomp.to_i  
 
 
-
  class Queue
 	 def initialize()
 		@array =[]
@@ -42,18 +41,15 @@ end
 
 my_queue = Queue.new
 
-     if number == 1 
-      	 me_que = my_queue.enque(1)
+one_beast = my_queue.enque('GrrR')
 
-      	p  my_queue
-     elsif number == 2
-     	me_que =  my_queue.enque(1)
-        
+     if number == 1 || number == 2
+     	 my_queue = one_beast
+     	p my_queue  
      elsif number == 3
      	# my_queue.peak
      	# p "clean check"
      	# my_queue.deque
-
      elsif number == 4
      	exit	
      else 
