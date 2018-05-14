@@ -32,4 +32,9 @@ svg.selectAll("line").data(dataArray).enter().append("line")
     }).attr("y2", function(d, i) {
         return 80 + (i * 20);
     });
-svg.append("text").attr("x", newX3).attr("y", "150").text("hello world");
+// svg.append("text").attr("x", newX3).attr("y", "150").text("hello world");
+svg.append("text").attr("x", newX).attr("y", 130).attr("font-size", "30").attr().text("Straw")
+svg.append("text").attr("x", newX).attr("y", 180).attr("font-size", "30").text("Wood")
+svg.append("text").attr("x", newX).attr("y", 260).attr("font-size", "30").text("Brick")
+
+
