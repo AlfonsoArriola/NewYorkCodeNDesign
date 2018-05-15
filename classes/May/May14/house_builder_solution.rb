@@ -7,7 +7,6 @@ class Room
 		puts "    Please Enter the dimensions for room #{j + 1}"
 		set_w(room)
 		set_h(room)
-
 		set_d room
 	end
 
