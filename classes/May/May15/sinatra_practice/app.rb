@@ -1,4 +1,5 @@
 require "sinatra"
+require "date"
 
 get ('/') do
     # 'hello world!  Hahaha' 
@@ -6,14 +7,17 @@ get ('/') do
 end
 
 get ('/contact_us') do 
+
 	erb(:contact_us)
 end
 
 get ('/about_us') do 
+
 	erb(:about_us)
 end
 
 get ('/pictures') do 
+	
 	erb(:pictures)
 end
 
@@ -26,6 +30,10 @@ end
 
 get('/hello/:hey_you') do 
 	@name_to_display = params[:hey_you]
+
+	time = Time.new
+
+	@hour = time
 	# @time_now =  params[:time]
 	# favorite_dog = params[:favorite_dog]
 	# "Hello #{@name_to_display}, Welcome, your favorite dog is #{favorite_dog}!"
