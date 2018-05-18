@@ -6,6 +6,7 @@ let svg = d3.select("body").append("svg").attr("height","100%");
 // _____  THis is a generator !!!    
 let line = d3.line()
      .x(function(d,i){ return d.x * 6;  })
+     .curve(d3.curveCatmullRom)
      .y(function(d,i){ return d.y * 4;  });
 // _____________________________________
      svg.append("path")

@@ -4,6 +4,27 @@
 	<title>Contact Us!!!1</title>
 </head>
 <body>
+
+<ul>
+	<% @contacts.each do |contact| %>
+          <li> <%= contact %>  </li>
+
+	<%end %>
+
+</ul>
+
+
+
+<!-- <ul>
+	<% @contacts.each do |contact| %>
+          <li> <%= contact[:title] %> -  <%= contact[:name] %>  </li>
+
+	<%end %>
+
+</ul>
+ -->
+
+
 	<p>  Call me, Maybe.
           
 
