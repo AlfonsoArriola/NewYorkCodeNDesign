@@ -36,9 +36,7 @@ end
 # -----------------------------------------
 post ('/place-order') do
 	p params
-
 	f_name = params[:first_name]
-
 	redirect "/order-success/#{f_name}"
 
 	# "Thank you, #{f_name}"

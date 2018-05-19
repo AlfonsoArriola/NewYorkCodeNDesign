@@ -14,21 +14,22 @@ post ('/') do
 	
 	find_me = params[:query]
 
+  if find_me.length > 0
      books = GoogleBooks.search(find_me)
      first_book = books.first
      @title = first_book.title
      @author = first_book.authors
      @image = first_book.image_link(:zoom => 2)
 
-      # "I love #{@test}"
 
-   # books = GoogleBooks.search('The Great Gatsby')
-   # first_book = books.first
-   # @test = first_book.title
-   #  "I love #{@test}"
+      erb :index
+
+   else
+
+     redirect '/no_bueno'
 
 
-   erb :index
+ end
 end
 
 # --------------------------------------------
